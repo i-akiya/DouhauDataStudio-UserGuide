@@ -1,7 +1,7 @@
 fig:nice-fig
 tab:nice-tab
-prerequisites
-intro
+introduction
+installation
 literature
 methods
 applications
