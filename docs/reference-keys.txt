@@ -5,9 +5,3 @@ installation
 configure-r-environment
 r-installation
 for-windows-users
-literature
-methods
-applications
-example-one
-example-two
-final-words
