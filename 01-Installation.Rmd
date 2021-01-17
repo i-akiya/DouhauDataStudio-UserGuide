@@ -6,13 +6,19 @@ Since, Douhau Data Studio build and run based on R Shiny framework, it is necess
 ### R installation
 #### For windows users
 R is obtain freely from CRAN web site.  
-[https://cran.r-project.org/bin/windows/base/R-4.0.3-win.exe](https://cran.r-project.org/bin/windows/base/R-4.0.3-win.exe)
+[https://cran.r-project.org/bin/windows/base/R-4.0.3-win.exe](https://cran.r-project.org/bin/windows/base/R-4.0.3-win.exe)  
 And after to finish download, installer R-4.0.3-win.exe should be launch and to complete R installation.  
 Next, user path environment for R has to be configured through the following steps.  
-Check the path of installed R
+To check the path of installed R, "where R" command into Command Prompt is very useful. 
 
+```{r echo=FALSE, my-fig, fig.cap="fig caption"}
+knitr::include_graphics(rep("images/RheckPathToR.png"))
+``` 
+``` 
 
-```
+This command returns complete path string, example "C:\Program Files\R\R-4.0.3\bin\Rscript.exe", however, the last part of "\Rscript.exe" has to be removed to cofigured as path environment variable.
+Control Panel -> System and Security -> System
+
 install.packages(
         c( "shiny",
            "shinydashboard",

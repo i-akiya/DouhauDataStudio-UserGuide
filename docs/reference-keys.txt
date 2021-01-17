@@ -1,3 +1,5 @@
+fig:my-fig
+this-document-is-still-under-development.
 introduction
 installation
 configure-r-environment

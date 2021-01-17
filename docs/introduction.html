@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>3 Installation | Douhau Data Studio User’s Guide</title>
+  <title>2 Introduction | Douhau Data Studio User’s Guide</title>
   <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="3 Installation | Douhau Data Studio User’s Guide" />
+  <meta property="og:title" content="2 Introduction | Douhau Data Studio User’s Guide" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="3 Installation | Douhau Data Studio User’s Guide" />
+  <meta name="twitter:title" content="2 Introduction | Douhau Data Studio User’s Guide" />
   
   <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="introduction.html"/>
-<link rel="next" href="literature.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="installation.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -169,56 +169,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="installation" class="section level1">
-<h1><span class="header-section-number">3</span> Installation</h1>
-<div id="configure-r-environment" class="section level2">
-<h2><span class="header-section-number">3.1</span> Configure R environment</h2>
-<p>Since, Douhau Data Studio build and run based on R Shiny framework, it is necessary to install and configure the R environment.</p>
-<div id="r-installation" class="section level3">
-<h3><span class="header-section-number">3.1.1</span> R installation</h3>
-<div id="for-windows-users" class="section level4">
-<h4><span class="header-section-number">3.1.1.1</span> For windows users</h4>
-<p>R is obtain freely from CRAN web site.<br />
-<a href="https://cran.r-project.org/bin/windows/base/R-4.0.3-win.exe">https://cran.r-project.org/bin/windows/base/R-4.0.3-win.exe</a><br />
-And after to finish download, installer R-4.0.3-win.exe should be launch and to complete R installation.<br />
-Next, user path environment for R has to be configured through the following steps.<br />
-To check the path of installed R, “where R” command into Command Prompt is very useful.</p>
-<div class="figure"><span id="fig:my-fig"></span>
-<img src="images/RheckPathToR.png" alt="fig caption" width="362" />
-<p class="caption">
-Figure 3.1: fig caption
-</p>
-</div>
-<pre><code>
-This command returns complete path string, example &quot;C:\Program Files\R\R-4.0.3\bin\Rscript.exe&quot;, however, the last part of &quot;\Rscript.exe&quot; has to be removed to cofigured as path environment variable.
-Control Panel -&gt; System and Security -&gt; System
+<div id="introduction" class="section level1">
+<h1><span class="header-section-number">2</span> Introduction</h1>
+<p>This user’s guide provides how to install and use Douhau Data Studio which is desktop application for browsing CDISC SDTM data.</p>
+<p>The <strong>bookdown</strong> package can be installed from CRAN or Github:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="introduction.html#cb1-1"></a><span class="kw">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)</span>
+<span id="cb1-2"><a href="introduction.html#cb1-2"></a><span class="co"># or the development version</span></span>
+<span id="cb1-3"><a href="introduction.html#cb1-3"></a><span class="co"># devtools::install_github(&quot;rstudio/bookdown&quot;)</span></span></code></pre></div>
+<p>Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading <code>#</code>.</p>
+<p>To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.org/tinytex/" class="uri">https://yihui.org/tinytex/</a>.</p>
 
-install.packages(
-        c( &quot;shiny&quot;,
-           &quot;shinydashboard&quot;,
-           &quot;dplyr&quot;,
-           &quot;stringr&quot;,
-           &quot;SASxport&quot;,
-           &quot;R.utils&quot;,
-           &quot;yaml&quot;,
-           &quot;devtools&quot;
-        )
-)
-
-library(devtools)  
-install_github(&quot;i-akiya/R4DSXML/R4DSXML&quot;)</code></pre>
-
-</div>
-</div>
-</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="literature.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="installation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
