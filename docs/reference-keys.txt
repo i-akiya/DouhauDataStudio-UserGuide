@@ -1,7 +1,8 @@
-fig:nice-fig
-tab:nice-tab
 introduction
 installation
+configure-r-environment
+r-installation
+for-windows-users
 literature
 methods
 applications
