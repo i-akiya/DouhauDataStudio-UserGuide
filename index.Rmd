@@ -3,13 +3,16 @@ title: "Douhau Data Studio User's Guide"
 author: "Ippei Akiya"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+output: 
+  bookdown::gitbook:
+    config:
+      sharing: false
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---
-# This document is still under development.
 # Introduction
 
-This user's guide provides how to install and use Douhau Data Studio which is desktop application for browsing CDISC SDTM data. 
+This user's guide provides how to install and use Douhau Data Studio which is a desktop application for browsing CDISC SDTM data. 
