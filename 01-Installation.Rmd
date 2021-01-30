@@ -37,7 +37,6 @@ This R code should be run on R console.
 install.packages(
         c( "shiny",
            "shinydashboard",
-           "DT",
            "dplyr",
            "stringr",
            "SASxport",
